@@ -1,0 +1,104 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.progress {
+    border-radius: 10px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.alert {
+    border-radius: 10px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.clickable-row {
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.clickable-row:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+.card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.card-title {
+    font-weight: 600;
+}
+.btn-primary, .btn-danger, .btn-warning, .btn-success {
+    border-radius: 0.5rem;
+}
+.form-select, .form-control {
+    border-radius: 0.5rem;
+}
+.badge {
+    font-size: 0.9rem;
+    padding: 0.5em 0.75em;
+    border-radius: 0.5rem;
+}
+.table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+}
+.progress {
+    border-radius: 0.5rem;
+}
+.progress-bar {
+    font-weight: bold;
+}
+.alert {
+    border-radius: 0.5rem;
+}
+#priorityChart {
+    max-height: 250px;
+}
+
+/* Apply National Park as default font */
+* {
+  font-family: 'National Park', sans-serif;
+}
+
+/* Apply JetBrains Mono to code/monospace elements */
+code, pre, .monospace {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Optional: Add font-weight helpers */
+body {
+  font-weight: 400; /* Regular weight for National Park */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; /* Bold weight for headings */
+}
+
+/* Base font for all elements */
+html {
+    font-family: 'National Park', sans-serif;
+}
+
+/* Force inheritance for form elements */
+input, button, textarea, select {
+    font-family: inherit !important;
+}
